@@ -1,18 +1,19 @@
 # Shopping Cart Assignment
 
-## Overview 
+## Overview
 This project implements a simple shopping cart application using Node.js. The shopping cart allows users to add products with specified quantities, retrieve product prices from a Price API, and calculate the cart's subtotal, tax (12.5%), and total payable amount.
 
-# Project Structure 
+## Project Structure
+
 ├── src/
 │   ├── fetch_data.js         # Contains logic to fetch product prices from the Price API.
 │   ├── shoppingCart.js       # Implements the shopping cart functionality.
 │   └── index.js              # Entry point to demonstrate the shopping cart usage.
 ├── tests/
 │   └── shoppingCart.test.js  # Unit tests for the shopping cart functionality.
-├── test_data/                # Contains mock data for testing.
-│   ├── cornflakes.json
-│   └── weetabix.json...
+├── test_data/
+│   ├── cornflakes.json       # Contains mock data for testing.
+│   └── weetabix.json
 ├── package.json              # Project configuration and dependencies.
 └── README.md                 # Project documentation.
 
