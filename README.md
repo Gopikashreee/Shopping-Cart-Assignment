@@ -16,6 +16,7 @@ This project implements a simple shopping cart application using Node.js. The sh
 ├── package.json              # Project configuration and dependencies.
 └── README.md                 # Project documentation.
 
+
 ## Setup Instructions
 
 ### Clone the Repository
